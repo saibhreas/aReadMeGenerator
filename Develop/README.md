@@ -1,17 +1,34 @@
-# A read me Generator
+# A README Generator
 
-  ### Contributors: Siobhan  
-  ### Github User: fsdfa  
-  #### Email: fds  
+
+## Contributors: Siobhan Knuttel
   
-  ### Licences being used:  
+### Github User: Saibhreas
   
-  ### Technologies incorporated:undefined
-     
+#### Email: sr@saibhreas.com
   
+## Purpose: Create a README generator to offer consistant readme files over multiple projects.  To sere as minimum standard template.
   
+## Table of Content
   
-  ## Purpose: to kjdfkljdf;kajf;kla
+    1. [Licence](###Licence)
+    2. [Installation](###Instalation)
+    3. [Usage](###Usage)
+    4. [Technologies](###Technologies)
+    5. [Description](##Description)
   
-  ### Usage:  undefined
+  ## Description: Uses none js command line prompts to populate readme file
+    
+  ### Licence: Apache
+  
+  ###license ![github license](https://img.shields.io/badge/license-Apache-brightgreen.svg)
+  
+  ### Installation: From within integrated terminal: node index.js  
+  
+  ### Usage: Use to make efficeint consistant readme.md  
+  
+  ### Technologies: node js, Java Script, Markdown
+  
+  ### Images:![Image](./img/scrn2.png)
+  ### Links: ![Image](<https://drive.google.com/file/d/1MfRs1tLw9TfFcyl7i_mnrVcDLOBuELea/view> "README.MD Generator")
   

@@ -26,36 +26,46 @@ const questions = [{
    message: 'Enter your email address',
  },
  {
+   type: 'input',
+   name: 'purpose',
+   message:'Why this app/purpose?'
+ },
+ {
+  type: 'input',
+  name: 'description',
+  message: 'Describe program/app?',
+ },
+ {
   type: 'list',
   name: 'lic',
   message: 'What liscence are you using?',
-  choices: ['MIT','Academic Free License v3.0','Creative Commons Zero v1.0 Universal','Eclipse Public License 2.0', 'Open Software License 3.0',"None"]
+  choices: ['MIT','Apache','GPL'],
  },
+ {
+  type: 'input',
+  name: 'run',
+  message: 'How to deploy?',
+ },
+ {
+  type:'input',
+  name:'usage',
+  message:'How to use',
+  },
  {
   type: 'input',
   name: 'tech',
   message: 'What technologies used?',
  },
  {
-   type: 'input',
-   name: 'purpose',
-   message: 'what is the purpose/task?',
- },
- {
-   type:'input',
-   name:'useage',
-   message:'How to use',
- },
- {
-   type:'input',
-   name:'url',
-   message:'Enter the link for deployed site',
- },
- {
   type: 'input',
-  name: 'image',
-  message: 'Add an image using the syntax:![Image].(./relative.png)',
+  name: 'imgs',
+  message: 'Any images to add?',
  },
+ {
+   type: 'input',
+   name: 'links',
+   message: 'Add any links here'
+ }
 ];
 
 // TODO: Create a function to write README file with user choices
