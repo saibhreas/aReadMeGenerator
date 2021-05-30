@@ -4,7 +4,7 @@
 
 ### Saibhreas
 
-![Image](./img/scrn2.png)
+![Image](./Develop/img/scrn2.png)
 ![Image](<https://drive.google.com/file/d/1MfRs1tLw9TfFcyl7i_mnrVcDLOBuELea/view> "README.MD Generator")
 
 ## Task/Criteria
