@@ -37,9 +37,9 @@ const questions = [{
  },
  {
   type: 'list',
-  name: 'lic',
+  name: 'license',
   message: 'What liscence are you using?',
-  choices: ['MIT','Apache','GPL'],
+  choices: ['MIT','Apache','Eclipse','Mozilla'],
  },
  {
   type: 'input',
