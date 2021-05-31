@@ -63,9 +63,8 @@ function renderLicenseSection(license) {
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title}
-
-  ${renderLicenseBadge(data.license)}
+  return `
+  # ${data.title}
   
   ## Contributors: ${data.name}
   
@@ -77,27 +76,43 @@ function generateMarkdown(data) {
   
   ## Table of Content
   
-    1. [Licence](###Licence)
-    2. [Installation](###Instalation)
-    3. [Usage](###Usage)
-    4. [Technologies](###Technologies)
-    5. [Description](##Description)
+  1. [Description](##description)
+  2. [Installation](###instalation)
+  3. [Usage](###usage)
+  4. [Contributing](###contributing)
+  5. [Technologies](###technologies)
+  6. [Questions:(###qusetions)]
   
-  ## Description: ${data.description}
+  ## Description
+  
+  ${data.description}
     
-  ### Licence: ${data.license}
+  ### Licence: ${data.lic}
   
-  ${renderLicenseLink(data.license)}
+  ${renderLicenseLink(data.lic)}
   
-  ### Installation: ${data.run}  
+  ### Installation
   
-  ### Usage: ${data.usage}  
+  * ${data.run}  
   
-  ### Technologies: ${data.tech}
+  ### Usage
   
-  ### Images: ${data.imgs}
+  * ${data.usage}  
   
-  ### Links: ${data.links}
+  ### Technologies
+  
+  ${data.tech}
+
+  ### Questions? Feel free to contact: ${data.email}
+  
+  ### Images
+  
+  ${data.imgs}
+  
+  ### Links
+  
+  ${data.links}
+  
   `
 }
 

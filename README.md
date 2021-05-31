@@ -5,7 +5,7 @@
 ### Saibhreas
 
 ![Screenshot](./Develop/img/scrn2.png)
-![Video](https://drive.google.com/file/d/1MfRs1tLw9TfFcyl7i_mnrVcDLOBuELea/view)
+[Screencastify of readme being generated](https://drive.google.com/file/d/1MfRs1tLw9TfFcyl7i_mnrVcDLOBuELea/view)
 
 ## Task/Criteria
 
