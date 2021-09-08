@@ -29,7 +29,7 @@ Create a README generator that:
 
 ## Description
 
-ReadeMe generator that creates a uniform boilerplate for a README.md file.  Allows for good minimum format tht is consistant across projects.
+A Command Line Interface that creates a uniform boilerplate for a README.md file.  Allows for good minimum format tht is consistant across projects.
 
 **PURPOSE:** To show grasp of concepts of the use of:
 
