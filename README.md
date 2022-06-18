@@ -1,3 +1,13 @@
+<p align='center'>
+  <a href="https://github.com/saibhreas">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white">
+  </a>
+  
+  <a href='https://www.linkedin.com/in/siobhanknuttel'>
+      <img src='https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin&labelColor=blue'>
+  </a>
+</p>
+
 # 09 Node.js Homework: Professional README Generator
 
 ## Siobhan Knuttel
