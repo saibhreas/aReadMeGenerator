@@ -38,7 +38,7 @@ const questions = [{
  {
   type: 'list',
   name: 'license',
-  message: 'What liscence are you using?',
+  message: 'What license are you using?',
   choices: ['MIT','Apache','Eclipse','Mozilla'],
  },
  {
@@ -78,7 +78,7 @@ function init() {
   inquirer.prompt(questions)
   .then((response) =>{
     console.log('Your readME is being generated');
-    writeToFile('README.md', generateMarkdown( { ...response } ) )
+    writeToFile('GenREADME.md', generateMarkdown( { ...response } ) )
   })
 }
 

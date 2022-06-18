@@ -8,6 +8,7 @@
   </a>
 </p>
 
+
 # 09 Node.js Homework: Professional README Generator
 
 Github User: https://github.com/saibhreas
@@ -38,7 +39,7 @@ The criteria were set by the Rutgers Fullstack program in assignment #9
 
  Command Line Interface that creates a uniform boilerplate for a README.md file.  Allows for good minimum format that is consistent across projects, includes specific elements such as *Table of Contents* and more.
 
-Demonstrate grasp of use/concepts of:
+**Demonstrate grasp of use/concepts of:**
   * NPM
   * inquire-fs-selectors:
   * *fs-readFile*,  
@@ -46,7 +47,7 @@ Demonstrate grasp of use/concepts of:
   * *inquirer.prompt*  
   * *require()*
 
-## Task/Criteria
+### Task/Criteria
 
 #### * Stipulated by Rutgers Fullstack program assignement 9
 
@@ -68,3 +69,25 @@ Create a README generator that:
   * Tests
   * Questions:
 
+## Installation
+
+NPM init create package.json
+
+npm install -g npm@8.12.2
+
+
+Add Dependencies
+
+  * npm install inquirer
+  
+    Inquire library used to handle CLI
+
+## Usage
+
+Free to read and fork. 
+
+[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+
+## Technologies
+
+  * Node JS

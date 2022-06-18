@@ -1,0 +1,22 @@
+{
+  "name": "areadmegenerator",
+  "version": "1.0.0",
+  "description": "CLI app to create gnegeric readme.md file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saibhreas/aReadMeGenerator.git"
+  },
+  "author": "saibhreas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saibhreas/aReadMeGenerator/issues"
+  },
+  "homepage": "https://github.com/saibhreas/aReadMeGenerator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
+}
