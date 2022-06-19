@@ -1,6 +1,6 @@
 
 
-// TODO: Create a function that returns a license badge based on which license is passed in
+// Returns a chosen license badge from list
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   if (license !=="None"){
@@ -18,10 +18,10 @@ function renderLicenseBadge(license) {
     }
     
   }
-  return "";
+  return ``;
 }
 
-// TODO: Create a function that returns the license link
+// Returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   if (license !=="None"){
@@ -37,10 +37,10 @@ function renderLicenseLink(license) {
     if (license ==='Eclipse') {
       return `[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)`;
     }
-    return "";
+    return ``;
   }
 
-  return "";
+  return ``;
 }
 
 // TODO: Create a function that returns the license section of README
@@ -61,12 +61,12 @@ function renderLicenseSection(license) {
   return "";
 }
 
-// TODO: Create a function to generate markdown for README
+// Generate markdown for README
 function generateMarkdown(data) {
   return `
   # ${data.title}
   
-  ## Contributors: ${data.name}
+  ## Contributors: ${data.contribute}
   
   ### Github User: ${data.github}
   
@@ -77,27 +77,26 @@ function generateMarkdown(data) {
   ## Table of Content
   
   1. [Description](##description)
-  2. [Installation](###instalation)
+  2. [Installation](###installation)
   3. [Usage](###usage)
   4. [Contributing](###contributing)
   5. [Technologies](###technologies)
-  6. [Questions:(###qusetions)]
+  6. [Questions:(###questions)]
   
   ## Description
   
   ${data.description}
     
-  ### Licence: ${data.lic}
-  
-  ${renderLicenseLink(data.lic)}
-  
+     
   ### Installation
   
   * ${data.run}  
   
   ### Usage
   
-  * ${data.usage}  
+  * ${data.usage} 
+  
+  * ${renderLicenseLink(data.lic)}
   
   ### Technologies
   
@@ -113,7 +112,7 @@ function generateMarkdown(data) {
   
   ${data.links}
   
-  `
+  `;
 }
 
 module.exports = generateMarkdown;
