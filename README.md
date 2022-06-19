@@ -49,7 +49,7 @@ The criteria were set by the Rutgers Fullstack program in assignment #9
 
 ### Task/Criteria
 
-#### * Stipulated by Rutgers Fullstack program assignement 9
+#### * Stipulated by Rutgers Fullstack program assignment 9
 
 Create a README generator that:
 
