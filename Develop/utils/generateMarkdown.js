@@ -43,7 +43,7 @@ function renderLicenseLink(license) {
   return ``;
 }
 
-// TODO: Create a function that returns the license section of README
+
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   if (license ==='MIT') {
@@ -64,24 +64,36 @@ function renderLicenseSection(license) {
 // Generate markdown for README
 function generateMarkdown(data) {
   return `
+  <p align='center'>
+   <a href="https://github.com/saibhreas">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white">
+   </a>
+  
+   <a href='https://www.linkedin.com/in/siobhanknuttel'>
+      <img src='https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin&labelColor=blue'>
+   </a>
+  </p>
+
   # ${data.title}
   
-  ## Contributors: ${data.contribute}
+  ## Contributors: Saibhreas + ${data.contribute}
   
   ### Github User: ${data.github}
   
   #### Email: ${data.email}
   
-  ## Purpose: ${data.purpose}
+  ## Purpose: 
+  
+  ${data.purpose}
   
   ## Table of Content
   
-  1. [Description](##description)
-  2. [Installation](###installation)
-  3. [Usage](###usage)
-  4. [Contributing](###contributing)
-  5. [Technologies](###technologies)
-  6. [Questions:(###questions)]
+  1. [Description](#description)
+  2. [Installation](#installation)
+  3. [Usage](#usage)
+  4. [Contributing](#contributing)
+  5. [Technologies](#technologies)
+  6. [Questions:(#questions)]
   
   ## Description
   

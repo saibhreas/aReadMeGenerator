@@ -1,9 +1,7 @@
-// Packages and variables needed for this application 
-
-const inquirer = require('inquirer');
 const fs = require('fs');
+const inquirer = require ('inquirer');
 const path = require('path');
-const generateMarkdown =  require('./utils/generateMarkdown')
+const generateMarkdown =  require('./utils/generateMarkdown.js')
 
 // Array of questions for user input
 const questions = [
@@ -85,7 +83,7 @@ function writeToFile(fileName, data) {
 function init() {
   inquirer.prompt(questions)
   .then((response) =>{
-    console.log('Your readME is being generated');
+    console.log('README template generated, file name GenReadme.md');
     writeToFile('./GenREADME.md', generateMarkdown( { ...response } ) )
   })
 }
